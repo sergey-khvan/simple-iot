@@ -6,7 +6,7 @@ from tkinter import *
 
 SUB_TOPIC = "home/doctor"
 PUB_TOPIC = "home/patient"
-TOPIC_ARN = 'arn:aws:sns:us-east-1:834626116142:my-test-topic'
+TOPIC_ARN = 'my-test-topic' # arn of the topic in AWS SNS
 
 
 def calculate_t():    
@@ -163,19 +163,4 @@ check_button.grid(row=7, column=1, columnspan=3,padx=(10,100))
 
 window.mainloop()
 
-# aws_pub("home/rehab", line=f"{muscles_dict}")
-
-#interface for the user
-    #add name of the patient to the output and interface                                            done
-    # add variables for each data entry field                                                       done
-    # connect interface to the program                                                              done
-    # create the button to send email to the doctor with all values                                 done
-    # add field to the interface which will read the doctor's comments received from the aws.       done
-    
-    # connect the doctor's field to aws                                                             done
-    # show results in both interface and send to the aws iot                                        done
-    # clean output to the aws iot
-    # create SNS email system notifying the doctor of with the start of new traing 
-# Report comments:
-# interface photo, photo of publishing, diagram which expains how the process works, photo of the exoskeleton with the patient.
 
