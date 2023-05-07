@@ -2,10 +2,10 @@ import time
 from AWSIoTPythonSDK.MQTTLib import AWSIoTMQTTClient
 from tkinter import messagebox
 
-ENDPOINT = "a966pdrxzoia6-ats.iot.us-east-1.amazonaws.com"
-ROOT_PATH ="/Users/sergekhvan/Projects/capstone/awsiot/root-ca.pem"
-PRIVATE_PATH ="/Users/sergekhvan/Projects/capstone/awsiot/private.pem.key"
-CERTIFICATE_PATH="/Users/sergekhvan/Projects/capstone/awsiot/certificate.pem.crt"
+ENDPOINT = "endpoint.iot.us-east-1.amazonaws.com" #aws endpoint
+ROOT_PATH ="root-ca.pem"
+PRIVATE_PATH ="private.pem.key"
+CERTIFICATE_PATH="certificate.pem.crt"
 
 class AWSclient:
     def __init__(client):
